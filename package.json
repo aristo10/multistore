@@ -1,5 +1,5 @@
 {
-  "name": "os-inventory",
+  "name": "inventory",
   "version": "3.0.0",
   "private": true,
   "devDependencies": {

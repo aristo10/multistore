@@ -1,14 +1,14 @@
 import { Button, Card, Form, Input } from "antd";
 import { useEffect, useState } from "react";
 
-import { useDispatch, useSelector } from "react-redux";
 import { addUser } from "@/redux/rtk/features/hrm/user/userSlice";
+import { useDispatch, useSelector } from "react-redux";
 
-import { LockOutlined, UserOutlined } from "@ant-design/icons";
-import { useNavigate } from "react-router-dom";
+import LoginTable from "@/components/Card/LoginTable";
 import { loadPermissionById } from "@/redux/rtk/features/auth/authSlice";
 import { getSetting } from "@/redux/rtk/features/setting/settingSlice";
-import LoginTable from "@/components/Card/LoginTable";
+import { LockOutlined, UserOutlined } from "@ant-design/icons";
+import { useNavigate } from "react-router-dom";
 
 const Login = () => {
   const dispatch = useDispatch();
@@ -57,8 +57,7 @@ const Login = () => {
               />
             ) : (
               <h2 className=" text-center flex items-center justify-center gap-2 text-[30px]">
-                OS
-                <strong style={{ color: "#55F	", fontWeight: "bold" }}>
+                <strong style={{ color: "#ffff", fontWeight: "bold" }}>
                   Inventory
                 </strong>
               </h2>

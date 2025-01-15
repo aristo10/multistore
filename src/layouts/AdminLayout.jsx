@@ -97,8 +97,7 @@ function AdminLayout() {
               />
             ) : (
               <h2 className='text-white text-center flex items-center justify-center gap-2 text-[25px]'>
-                OS
-                <strong style={{ color: "#55F	", fontWeight: "bold" }}>
+                <strong style={{ color: "#fffff	", fontWeight: "bold" }}>
                   Inventory
                 </strong>
               </h2>
