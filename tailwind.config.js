@@ -10,16 +10,16 @@ module.exports = {
         Inconsolata: ["'Inconsolata'", "sans-serif"],
       },
       colors: {
-        primary: "#319AF6",
+        primary: "#224e71",
         headerBg: "#f7f7fe",
-        sideNavBg: "#2A2D3E",
+        sideNavBg: "#161631",
         tableBg: "white",
         tableHeaderBg: "#f1f5f9",
         cardBg: "#FAFAFA",
         modalBg: "#F1F2F4",
 
         // E-commerce colors
-        ePrimary: "#4f46e5",
+        ePrimary: "#2d6069",
       },
       container: {
         center: true,
