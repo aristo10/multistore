@@ -33,3 +33,4 @@ jobs:
           port: ${{ secrets.FTP_PORT }}
           local-dir: ./dist/
           server-dir: multistoref.anondini.com/
+          debug: true
