@@ -32,5 +32,5 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           port: ${{ secrets.FTP_PORT }}
           local-dir: ./dist/
-          server-dir: /home/anondini/multistoref.anondini.com
+          server-dir: home/anondini/multistoref.anondini.com/
           debug: true
