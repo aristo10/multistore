@@ -1,0 +1,1 @@
+import{cN as s}from"./vendor-3a94a37a.js";import{p as e}from"./vendor-large-f75deccb.js";function t(r){return s.jsx("div",{className:"text-center",children:s.jsxs("div",{className:"loading",children:[s.jsx("p",{children:" Loading "}),s.jsx(e,{size:"default"})]})})}export{t as B};

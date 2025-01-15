@@ -1,0 +1,1 @@
+import{d2 as s,cN as o}from"./vendor-3a94a37a.js";function a({sku:e}){const{inputRef:r}=s({value:`${e}`,options:{background:"#FFFFFF"}});return o.jsx("svg",{ref:r,className:"w-[500px]"})}export{a as G};

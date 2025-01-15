@@ -1,0 +1,1 @@
+import{cN as r}from"./vendor-3a94a37a.js";import{am as t}from"./index-ed7845ca.js";const p=({columns:n,list:e,loading:m,children:a,nestedRowKey:s})=>r.jsxs(r.Fragment,{children:[r.jsx("div",{className:"mt-2",children:r.jsx(t,{nestedRowKey:s,loading:m,columns:n,data:!!(e!=null&&e.length)&&e.map(o=>({...o,key:o.id})),scroll:{y:window.innerHeight-350}})}),a&&a]}),d=p;export{d as R};

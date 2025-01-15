@@ -1,0 +1,1 @@
+import{cN as t}from"./vendor-3a94a37a.js";import{A as r}from"./AddCustomer-f6c915fd.js";import"./index-ed7845ca.js";import"./vendor-large-f75deccb.js";import"./UploadMany-c4472299.js";const p=()=>t.jsx(t.Fragment,{children:t.jsx(r,{})});export{p as default};

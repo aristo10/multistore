@@ -1,0 +1,2 @@
+import{cN as e,cQ as t}from"./vendor-3a94a37a.js";import{P as a}from"./vendor-large-f75deccb.js";function p({title:r,to:s}){return e.jsx(t,{to:s,children:e.jsx("button",{className:`xs:px-3 px-2 md:text-base py-[6px] lg:px-5  border bg-primary
+         hover:bg-primary/60 text-white rounded cursor-pointer`,children:e.jsxs("span",{className:"flex items-center justify-center gap-1 md:gap-2 ",children:[e.jsx(a,{}),e.jsx("span",{className:"",children:r||"Add Item"})]})})})}export{p as C};
