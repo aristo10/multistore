@@ -45,7 +45,7 @@ export const addReturnSale = async (values) => {
         Accept: "application/json",
         "Content-Type": "application/json;charset=UTF-8",
       },
-      url: `return-sale-invoice/`,
+      url: `return-sale-invoice`,
       data: {
         ...values,
       },
@@ -55,7 +55,7 @@ export const addReturnSale = async (values) => {
       return errorHandler(error , true);
     }
 }
-  
+
 
 const SaleReturnListSlice = createSlice({
   name: "SaleReturnSlice",

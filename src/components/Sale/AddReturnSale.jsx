@@ -88,7 +88,7 @@ const AddReturnSale = () => {
           return {
             saleInvoiceProductId: parseInt(id),
             productQuantity: value,
-            damageQuantity,
+            damageQuantity:damageQuantity??0,
           };
         }
       ),
